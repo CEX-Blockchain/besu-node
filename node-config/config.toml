@@ -1,0 +1,28 @@
+# data folder path
+data-path="data"
+
+# Chain
+genesis-file="genesis.json" # Path to the custom genesis file
+
+# Network
+bootnodes = []
+p2p-port=30303
+max-peers=100
+host-allowlist=["*"]
+
+# RPC setup
+rpc-http-cors-origins=["all"] 
+rpc-http-host="0.0.0.0"
+rpc-http-port=8545
+rpc-http-enabled=true
+rpc-ws-host="0.0.0.0"
+rpc-ws-port=9545
+rpc-ws-enabled=true
+# NOTE: QBFT should not be available for public rpc enabled nodes
+# rpc-http-api=["ETH", "NET", "WEB3", "TXPOOL", "TRACE", "QBFT"] # QBFT ENABLED
+rpc-http-api=["ETH", "NET", "WEB3", "TXPOOL", "TRACE"] # QBFT DISABLED
+
+
+# ETHSTATS
+# ethstats=""
+# ethstats-contact=""

@@ -1,0 +1,7 @@
+# node-config data folder
+node-config/data
+
+# Installation files and folders
+install/nodesource_setup.sh
+install/besuclient
+install/jdk21
