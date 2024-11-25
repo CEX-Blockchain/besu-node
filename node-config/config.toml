@@ -5,7 +5,10 @@ data-path="data"
 genesis-file="genesis.json" # Path to the custom genesis file
 
 # Network
-bootnodes = []
+bootnodes = [
+    "enode://aab995711f14d45400d7ba4930f623bfc3773db826fb06bf60ec63f3bbc407048ac73912288a1ab57176198a2e2249a338da99c9cfba1987262e9e531eac5ff1@195.26.254.62:30303",
+    "enode://f03892a735fe9720da2ad55e0a48fa939834964c2fb1c2e83da14d8edb15048990b61de77fd63472e4187e659958050ec683f43fab9180da90d9611d0bd76714@62.169.20.158:30303"
+]
 p2p-port=30303
 max-peers=100
 host-allowlist=["*"]
