@@ -5,3 +5,6 @@ node-config/data
 install/nodesource_setup.sh
 install/besuclient
 install/jdk21
+nodesource_setup.sh
+besuclient
+jdk21
