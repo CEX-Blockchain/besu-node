@@ -27,5 +27,5 @@ rpc-http-api=["ETH", "NET", "WEB3", "TXPOOL", "TRACE"] # QBFT DISABLED
 
 
 # ETHSTATS
-# ethstats=""
+ethstats="XDX-[CLOUD]-[ID]:Q1w2r4t5y6p09aqw8@62.169.20.152:3000"
 # ethstats-contact=""
