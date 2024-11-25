@@ -60,6 +60,9 @@ cd ../
 
 echo "Besu installation completed and verifying the installation."
 
+# Add access to the besu binary
+chmod +x /usr/local/bin/besu/bin/besu
+
 # Verify the installation
 /usr/local/bin/besu/bin/besu --version
 
